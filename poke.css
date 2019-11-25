@@ -1,0 +1,130 @@
+
+html{
+  font-family: monospace;
+  color: white;
+  font-size: 10px;
+  background-image:url("https://i.pinimg.com/originals/85/91/58/8591584157161d0a007c8165676e35f1.gif");
+background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Press Start 2P', cursive;
+  overflow-x: hidden;
+}
+
+#headTxt{
+  margin-left: 600px;
+margin-top: -100px;
+
+}
+
+.card{
+margin-left: 500px;
+
+opacity:0;
+animation-name: appear;
+animation-duration: 10s;
+
+}
+
+#logo{
+  position: absolute;
+  margin-left: 80px;
+}
+
+
+
+#search{
+  font-family: monospace;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+}
+#img{
+  -webkit-animation: mover 2s infinite  alternate;
+   animation: mover 2s infinite  alternate;
+  margin-left: 70%;
+  margin-top: -300px;
+  position: absolute;
+
+  /* animation-name: wizzard;
+  animation-iteration-count: infinite;
+  anima;tion-duration: 1s; */
+}
+
+.collapsible {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+ .active,.collapsible:hover {
+  background-image:url(https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif);
+}
+
+.content {
+  padding: 100px;
+  overflow: hidden;
+  background-color: white;
+}
+.gallery{
+   display: grid;
+   grid-template: repeat(2,50px) / repeat(4,50px);
+   grid-gap: 250px;
+   margin-left: -80px;
+   margin-right: 100px;
+}
+
+ .gallery div{
+margin-right: 600px;
+   height: 30px;
+   width: 25px;
+
+
+   width:300px;
+   margin-bottom: -1000px;
+    margin-right: 600px;
+
+ }
+
+.pics{
+     margin-right: 600px;
+  border-style: solid;
+   border-radius: 2px;
+   margin-top: 100px;
+   height:200px;
+   /* margin: 300px; */
+   width:200px;
+}
+
+
+/* @keyframes wizzard {
+  from{margin-bottom: 5px}
+  to{margin-top: 30px}
+} */
+
+
+footer{
+background-image:url(https://i.imgur.com/kDlhHgJ.jpg);
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+@keyframes appear {
+
+    from{opacity: 1;}
+    to{opacity: 0;}
+
+}
