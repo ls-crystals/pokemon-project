@@ -1,32 +1,4 @@
 
-// const pokedex = document.getElementById('pokedex');
-// const all = 'https://pokeapi.co/api/v2/'
-
-// async function synthefire () {
-// const response = await fetch(all);
-// const pokes = await all.json();
-
-// for (let i = 5; i <= 8; i++) {
-//     const pokeRay= [];
-//     let myPokes = all.json[i];
-//     pokeRay.push(pokes)
-//     console.log(pokeRay)
-
-// // }
-// }
-// pokeInfo{
-// class Pokemon {
-//     constructor(name){
-//         name: pokes.name,
-//           hp:   pokes.sprites.front_default,
-//         hp:   pokes.
-
-
-
-//     }
-//   }
-// }
-// synthefire()
 
 
 
@@ -51,7 +23,7 @@ class Pokemon {
      this.sprite = parsed.sprites.back_shiny,
      this.hp = parsed.stats[5].base_stat,
      this.attack = parsed.stats[4].base_stat,
-     defense = parsed.stats[3].base_stat
+     this. defense = parsed.stats[3].base_stat
      this.abilities = []
      this.types = []
      this.sprite = parsed.sprites.front_default
@@ -61,13 +33,8 @@ class Pokemon {
         this.abilities.push(parsed.abilities[i].ability.name)
     }
 }
-
-
-
 }
-// let charizard = new Pokemon (parsed.hp)
-// var poke1 = getElementsByName('poke1')
-// poke1.inner.text =`${this.hp}`
+
 
 
     class Trainer {
@@ -97,7 +64,7 @@ class Pokemon {
 let synthefire = new Trainer()
 
 
-poke1 = document.getElementById("poke1")
+// poke1 = document.getElementById("poke1")
 
 
 

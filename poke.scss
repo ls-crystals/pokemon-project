@@ -1,0 +1,36 @@
+html
+  font-family: monospace
+  font-size: 10px
+  background-image: url("https://i.pinimg.com/originals/85/91/58/8591584157161d0a007c8165676e35f1.gif")
+  background-size: cover
+  background-repeat: no-repeat
+  font-family: 'Press Start 2P', cursive
+  overflow-x: hidden
+  color:white
+
+#headTxt
+  margin-left: 600px
+  margin-top: -100px
+
+.card
+  margin-left: 500px
+  opacity: 0
+  animation-name: appear
+  animation-duration: 10s
+
+#logo
+  position: absolute
+  margin-left: 80px
+
+#search
+  font-family: monospace
+  border-style: solid
+  border-radius: 10px
+  border-color: white
+
+#img
+  -webkit-animation: mover 2s infinite  alternate
+  animation: mover 2s infinite  alternate
+  margin-left: 70%
+  margin-top: -300px
+  position: absolute

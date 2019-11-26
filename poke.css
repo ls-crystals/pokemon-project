@@ -1,4 +1,3 @@
-
 html{
   font-family: monospace;
   color: white;
@@ -48,6 +47,54 @@ animation-duration: 10s;
   /* animation-name: wizzard;
   animation-iteration-count: infinite;
   anima;tion-duration: 1s; */
+}
+
+
+.gallery{
+    display: grid;
+    margin: 30px;
+    margin-right: -500px;
+    padding-top:500px;
+
+    font-size: 20px;
+    margin-top:-500px;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    grid-gap: 100px;
+
+  }
+
+
+.pics{
+  margin-left: 400px;
+}
+
+
+#text1{
+  font-size: 15px;
+  background-color: black;
+  background-size: contain;
+  margin-left: -100px
+}
+
+
+
+#text2{
+  ont-size: 15px;
+  background-color: black;
+  margin-left: -100px
+
+}
+
+
+
+
+#text3{
+
+  ont-size: 15px;
+  background-color: black;
+  margin-left: 30px
+
 }
 
 .collapsible {
